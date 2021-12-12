@@ -18,9 +18,7 @@ class Solution {
                 answer = answer + i;
             }
         }
-        System.out.print(answer);
-        
-        
+                 
         return answer;
     }
 }
