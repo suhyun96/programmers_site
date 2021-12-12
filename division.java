@@ -14,7 +14,9 @@ class Solution {
             }
 
         }
+        // 위의 반복문으로 계산한 거로 answer 배열 크기 초기화
         answer = new int[count];
+        // 다시 count 사용하기 위해 0으로 초기화
         count = 0;
         for (int i = 0; i < arr.length; i++) {
 
@@ -25,7 +27,9 @@ class Solution {
             }
 
         }
+        // 오름차순 정열 
         Arrays.sort(answer);
+        // 나눠지는 게 없으면 -1 넣기 
         if (flag) {
             answer = new int[1];
             answer[0] = -1;
