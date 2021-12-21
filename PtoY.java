@@ -6,7 +6,7 @@ public class PtoY {
         int y_count = 0;
         int p_count = 0;
         boolean answer = true;
-
+        // 이렇게 하지말고 전부upper로 대문자 바꾼 다음 숫자 세는 방법 적용하기 
         for (int i = 0; i < s.length(); i++) {
             // p갯수
             if (arr[i] == 80 || arr[i] == 112) {
